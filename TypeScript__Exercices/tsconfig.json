@@ -1,0 +1,10 @@
+{
+    "exclude": ["node_modules", "**/*.spec.ts"],
+    "include": ["src/**/*"], // .ts / .tsx / .js / .jsx
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "ES6",
+        "rootDir": "./src",
+        "strictNullChecks": true
+    },
+}
