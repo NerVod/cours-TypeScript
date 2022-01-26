@@ -1,0 +1,9 @@
+{
+    "target": "ES5",
+    "exclude": ["node_modules"],
+    "include": ["src/**/*"], // .ts, .js,
+    "compilerOptions": {
+        "outDir": "dist",
+        "experimentalDecorators": true
+    }
+}
