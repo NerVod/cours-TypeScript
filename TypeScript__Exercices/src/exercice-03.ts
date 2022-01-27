@@ -3,10 +3,10 @@ console.log(salutation);
 
 const nombreA: number = 10;
 const nombreB: number = 4.52;
-const produit = (nombreA: number , nombreB: number): number => {
-    return nombreA * nombreB
-};
+const produit: number = nombreA * nombreB;
+
 console.log(produit);
+
 
 let reponse: number;
 reponse = 42;

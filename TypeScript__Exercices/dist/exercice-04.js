@@ -1,0 +1,10 @@
+var _a;
+let fragmentDePhrase = ["Mon", "beau", "sapin"];
+console.log(fragmentDePhrase[2]);
+let receptacle = [];
+receptacle.push(144);
+receptacle.push(806);
+receptacle.push(95);
+console.log(receptacle);
+const parfumsDeGlaces = ["menthe", "chocolat", "vanille", "fraise", "citron", "rhum-raisin"];
+(_a = document.querySelector("p")) === null || _a === void 0 ? void 0 : _a.innerHTML = `Mon parfum de glace préféré est ${parfumsDeGlaces[5]}`;
